@@ -14,7 +14,7 @@ const listSong2=[{
 },
 {
     title:'火红的萨日朗',
-    URL:'火红的萨日朗.mp3'
+    URL:'./List/火红的萨日朗.mp3'
 },
 {
     title:'Cánh hồng phai',
