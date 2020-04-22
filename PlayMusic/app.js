@@ -42,7 +42,7 @@ function playSong(){
 }
 function next(){
     currentSong++;
-    if(currentSong>3){
+    if(currentSong>listSong2.length){
         currentSong=0
     }
     playSong();
@@ -50,7 +50,7 @@ function next(){
 function back(){
     currentSong--;
     if(currentSong<0){
-        currentSong=3
+        currentSong=listSong2.length;
     }
     playSong();
 }
