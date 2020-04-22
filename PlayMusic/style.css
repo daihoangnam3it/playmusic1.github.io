@@ -1,0 +1,67 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,400;0,700;1,300&display=swap');
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Lato', sans-serif;
+}
+
+html{
+    font-size: 62.5%;
+}
+.container{
+    background:#e8df9c ;
+    width: 100%;
+    height: 100vh;
+    position: relative;
+}
+.box{
+    background:#91c09e ;
+    width: 40rem;
+    height: 15rem;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);  
+    border: .5rem solid rgba(77, 73, 73, 0.952);
+    border-radius: .5rem;
+    
+}
+#title-player{
+    width: 100%;
+    text-align: center;
+    font-size: 2rem;
+    font-weight: bold;
+    position: absolute;
+    left: 50%;
+    top: 20%;
+    transform: translate(-50%,-50%);
+}
+#progressbar{
+    width: 80%;
+    background-color: white;
+    height: 1rem;
+    margin: auto;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    border-radius: .5rem;
+}
+#progress{
+    background-color: rgb(80, 75, 75);
+    width: 100%;
+    height: 100%;
+    border-radius: .5rem;
+    transition: 0.25s liner;
+}
+.box ul{
+    display: flex;
+}
+.box ul li{
+    margin: 10rem auto;
+    list-style: none;
+    font-size: 1.5rem;
+    cursor: pointer;
+}
+
