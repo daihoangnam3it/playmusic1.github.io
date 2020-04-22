@@ -18,7 +18,7 @@ const listSong2=[{
 },
 {
     title:'Cánh hồng phai',
-    URL:'./List/ánh Hồng Phai - Chou (cover).mp3'
+    URL:'./List/Cánh Hồng Phai - Chou (cover).mp3'
 }
 ];
 const songTitle=document.getElementById('title-player');
